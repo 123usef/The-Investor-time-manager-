@@ -1,0 +1,60 @@
+ @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap&effect=fire');
+ @import url("https://fonts.googleapis.com/css2?family=Sofia&effect=fire");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tilt Warp', cursive;
+    color: white;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/* nav style start */
+.nav-parent{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+
+.nav-pt1{
+    font-family: "Sofia", sans-serif !important;
+    font-size: 30px;
+    opacity: 0.8;
+}
+
+.nav-pt2{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-align: center;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    margin-top: 3%;
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    
+}
+a:hover{
+    transform: scale(1.5);
+}
+/* nav style end */
+
+/* landing start */
+.landing{
+    height: 70vh;
+    background-color: #000;
+}
+
+/* landing end */
